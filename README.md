@@ -5,5 +5,5 @@
 
 * In each notebook the datasets were transformed to fit the tables in the [schema file](../Resources/schema.sql).
 
-* Then DataFrames that correspond to the tables were loaded into an RDS instance.
+* Then DataFrames that correspond to the tables were loaded into an RDS database.
 
