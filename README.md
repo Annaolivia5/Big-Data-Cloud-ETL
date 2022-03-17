@@ -7,8 +7,11 @@
 
 * Then DataFrames that correspond to the tables were loaded into an RDS database.
 
-* Below are spark dataframes that were loaded into the RDS database for the baby product category data.
+* For the baby product data, the reviews were analyzed to see if vine reviews has a bias for higher ratings. From the tables below that count the number of vine and non-vine reviews, for each star rating (1-5), the vine reviews appear to be skewed as higher rated.
+vine_percentages.png
+![vine review](images/vine.png)
+![vine review percentages](images/vine_percentages.png)
+![nonvinereview](images/nonvine.png)
+![non-vine review percentages](images/nonvine_percentages.png)
 
-![product dataframe](images/product.png)
-![review dataframe](images/review.png)
-![vine dataframe](images/vine.png)![customer dataframe](images/customer.png)
+* The average star rating for all the reviews was about 4 stars. 84.73% of vine reviews  scored at or above average where as only 77.4% of non-vine reviews scored at least average. So it seemes that vine reviews may generally be bias to favor the product being reviewd.
